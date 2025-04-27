@@ -1,2 +1,58 @@
-.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+*.env/
+.venv/
+
+# Conda environments
+*.conda/
+*.condarc
+conda-meta/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS junk
+.DS_Store
+
+# Env variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# TensorFlow junk
+checkpoint/
+events.out.tfevents.*
+
+# Pip wheel cache
+*.whl
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Test outputs
+.tox/
+.pytest_cache/
+
 commit.sh
+
